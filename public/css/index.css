@@ -1,7 +1,25 @@
-html {
-  max-width: 720px;
+.card>p{
+  color:green ;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: blue;
+text-align: justify;
+text-decoration: underline wavy red;
 }
+*{
+  font-family:fantasy;
+}
+span {
+  font-size: large ;
+  font-weight:lighter;
+}
+h1 {
+  display:none ;
+}
+.block
+ {
+  display:block;
+  background: rgb(242, 237, 237);
+  margin:auto;
 
-body {
-  background: #fff;
+  width: 250px;
 }
