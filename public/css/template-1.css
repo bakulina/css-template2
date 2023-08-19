@@ -1,3 +1,10 @@
+:root{
+   --text-color:rgb(19, 18, 18);
+   
+}
+
+
+
 .page {
     background: #ffff;
     padding: 0 15px;
@@ -7,7 +14,9 @@
     margin: 0 auto; 
 }
 .header {
+    border-bottom: 1px solid #dee2e6 ;
 padding: 24px;
+
 }
 .logo{
     font-size: 17px;
@@ -47,6 +56,7 @@ margin-bottom: 15px;
 }
 footer {
     padding: 24px 0;
+    border-top: 1px solid#dee2e6 ;
 }
 .footer_copyright{
     font-size: 14px;
@@ -56,20 +66,21 @@ margin-top:12px ;
 }
 .footer_title{
 font-size: 20px;
-color: #212529;
+color: var(--text-color);
 display: block;
 margin-bottom:12px ;
 }
 .hero_title{
     font-size: 56px;
-    color:#212529 ;
+    color:var(--text-color) ;
     font-weight: 300;
     margin: 12px;
     text-align: center;
+  
 }
 .hero_text{
-   color:#212529 ; 
-   font-size: 20px;
+   color:var(--text-color) ; 
+   font-size: 40px;
    text-align: center;
    max-width:585px ;
    margin: 0 auto;
@@ -77,14 +88,17 @@ margin-bottom:12px ;
 .plans_card:not(:last-of-type){
     margin-right: 24;   
 } 
+
+
+
  .card-header{
    padding: 12px; 
    text-align: center;
    font-size: 24px;
-   color:#212529 ;
+   color:var(--text-color) ;
  } 
  .card-body{
-    padding: 24px;
+    padding: 26px;
     
  }
 .card_price{
@@ -92,17 +106,19 @@ margin-bottom:12px ;
     margin-bottom: 24px;
 }
 .card_price_amount{
-    font-size: 40px;
-color:#212529 ;
+    font-size: 20px;
+color:var(--text-color) ;
 }
 
 .card_price_duration{
-    font-size: 29px;
+    font-size: 20px;
     color:#6c757d ;
+   vertical-align:-1px;
 }
 .card_block {
-    margin-bottom: 24px;
+   
     text-align: center;
+
 }
 .card_block:not(:last-of-type){
     margin-bottom: 24px;
@@ -112,7 +128,7 @@ color:#212529 ;
 }
 .card_description_item{
     font-size: 16px;
-    color:#212529 ;
+    color:var(--text-color) ;
     display: block;
     text-align: center;
 }
@@ -124,4 +140,66 @@ color:#212529 ;
   width: 100%;
   font-size: 19px;
   padding: 9px;
+}
+.card {
+    border:2px solid rgb(42, 6, 185) ;
+   
+   
+}
+.card:hover{
+    outline: 2px solid blue;
+    outline-offset: 2px;
+  
+    cursor: pointer;
+}
+.btn{
+    border-radius: 20%;
+}
+.btn:hover{
+    box-shadow: 10px 10px 10px 1px rgb(0, 255, 51);
+   
+}
+
+
+.plans_card:nth-child(2) >.card{
+visibility: hidden;
+}
+p{
+    background: gray;
+  
+ 
+}
+.hero_text {
+    background-image: url('/img/test.png');
+}
+.card_block{
+    list-style-type:upper-alpha;
+    list-style-position:inside ;
+    list-style-image:linear-gradient(
+        to bottom right ,
+     red,
+     blue
+     );
+    padding: 0;
+}
+.card_description_item{
+    display:list-item;
+}
+.table tr td{
+  border: 2px solid #344035; 
+  border-bottom-color:red ;
+  border-right: blue; 
+}
+
+.table{
+    table-layout: fixed;
+    width: 600px;
+    border-collapse: unset;
+    border-spacing:20px 10px ;
+    caption-side: top;
+}
+.calc{
+width: 600px;
+margin: 0;
+margin-left: calc(50% - (600px / 2));
 }

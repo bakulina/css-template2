@@ -11,7 +11,7 @@
        </div>
       </nav>
 </header>
-{{>divider }}
+
 </div>
 <div class="page_block">
       {{>hero title=hero.title text=hero.text}}
@@ -24,22 +24,36 @@
       {{#each plans}}
       <div class="col plans_card">
 {{> card data=this}}
-
-
-
-            </div>
-      <div class="col plans_card">
-
-      </div>
+</div>    
 {{/each}}
 </main>
-
+</div>
+<div class="page_block">
+      <div class="calc">
+ <table class="table">
+      <caption>My table</caption>
+      <tbody>
+            {{#each footer}}
+      <tr>
+            {{#each links}}
+            <td>
+            {{text}}
+            </td>
+            {{/each}}
+      </tr>      
+            {{/each}}
+          
+      </tbody>
+ </table>
+</div>
 </div>
 
 
+
+
   <div class="page_block">
-      {{>divider }}
-<footer class="row">
+    
+<footer class="row g-0 footer">
       <div class="col-3">
 {{>logo}}
 <span class="footer_copyright">copyright 2023-2024</span>
