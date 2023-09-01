@@ -75,6 +75,7 @@ margin-bottom:12px ;
     color:white ;
     font-weight: 200;
     margin: 12px;
+
  
   
 }
@@ -83,13 +84,18 @@ margin-bottom:12px ;
    font-size: 40px;
    max-width:585px ;
    line-height: 150%;
+ 
 
 }
 .hero {
     background-color: 
     rgba(52, 58, 64, 1);
     border-radius: 24px;
-    padding: 80px;   
+    padding: 80px; 
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .button{
     text-decoration: none;
@@ -259,4 +265,17 @@ padding: 24px;
 }
 .link_item:hover{
     text-decoration: underline;
+}
+.flex-conteiner {
+display: flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content: flex-start;
+align-content: flex-start;
+height: 800px;
+margin-bottom: 12px;
+
+}
+.flex-item{
+width: 500px;
 }

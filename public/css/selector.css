@@ -1,2 +1,8 @@
-
+*root{
+    background:wheat ;
+}
+.flex-conteiner{
+    display: flex;
+    flex-direction: row;
+}
 
