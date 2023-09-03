@@ -201,3 +201,30 @@ color: var(--color-text);
 .form_button:hover{
     opacity: 0.8;
 }
+
+
+.hero_slider_icon{
+ background: var(--color-primary); 
+ width: 30px;
+ height: 30px;
+ display: flex;  
+ justify-content: center;
+ align-items: center;
+ border-radius: var(--border-radius);
+ color: var(--color-white);
+ position: absolute;
+ top:calc(50% - 15px);
+}
+.hero_slider_icon:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.hero_slider{
+    position: relative;
+}
+.hero_slider_left{
+    left: var(--space-l);
+}
+.hero_slider_right{
+    right: var(--space-l);
+}
