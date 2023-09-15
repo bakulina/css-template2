@@ -250,3 +250,7 @@ gap: var(--space-l);
     border:1px solid var(--color-border) ;
     border-radius:var(--border-radius) ;
 }
+.advantages{
+    display: grid;
+  grid-template-columns: repeat(3 ,1fr) ;  
+}
