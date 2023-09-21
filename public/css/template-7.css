@@ -1,0 +1,355 @@
+:root{
+    background-color: rgba(17, 24, 39, 1);
+}
+.page{
+  width: Fixed (1,150px);
+height: Hug (1,326px);
+gap: 60px;
+
+}
+.card{
+  display: flex;
+ 
+  width: Fill (1,150px);
+  height: Hug (54px);
+  padding: 12px, 0px, 12px, 0px;
+  border: 0px, 0px, 1px, 0px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(37, 48, 65, 1);
+color: rgba(37, 48, 65, 1);
+}
+.logo_button{
+  width: Hug (56px);
+  height: Hug (30px);
+  padding: 8px, 12px, 8px, 12px;
+  border-radius: 10px;
+  gap: 10px;
+  background: rgba(136, 95, 251, 1);
+  margin: 10px;
+}
+.logo{
+  padding: 7px;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+text-align:center;
+color: white;
+}
+.card_3{
+  display: flex;
+ padding-bottom: 12px;
+  width: Fill (1,150px);
+height: Hug (30px);
+padding: 12px, 0px, 0px, 0px;
+justify-content: space-between;
+margin: 10px;
+
+}
+.userOnline{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+}
+
+.ad{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align:left;
+  color: rgba(136, 95, 251, 1);
+}
+.text{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  
+  text-align:right calc(-80%);
+  color: rgba(255, 255, 255, 1);
+}
+.card_2{
+  width: Hug (340px);
+height: Hug (16px);
+gap: 24px;
+margin-top: 10px;
+
+}
+.links{
+  text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align:center;
+color: rgba(255, 255, 255, 1);
+padding: 12px;
+}
+.links_1{
+  text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align:center;
+color: rgba(255, 255, 255, 1);
+padding: 12px;
+}
+.links_2{
+  text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align:center;
+color: rgba(255, 255, 255, 1);
+padding: 12px;
+}
+.links_3{
+  text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align:center;
+color: rgba(255, 255, 255, 1);
+padding: 12px;
+}
+.links_4{
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align:center;
+color: rgba(255, 255, 255, 1);
+padding: 12px;
+}
+.hero{
+  margin-top: 10px;
+  width: Fill (1,150px);
+height: Fixed (300px);
+padding: 32px;
+border-radius: 24px;
+gap: 20px;
+background: radial-gradient(100% 625% at 100% 100%, rgba(17, 24, 39, 0) 0%, rgba(78, 63, 146, 0.6) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+
+}
+.text_title{
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1); 
+}
+.text_content{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color:
+rgb(225, 225, 220);
+}
+.btn{
+ display: flex;
+ justify-content: center;
+ 
+}
+.click{
+  transition: opacity 0.7s;
+}
+.click:hover{
+  opacity:0.3s;
+  cursor: pointer;
+}
+
+
+
+.button_2 {
+text-align: center;
+  text-decoration: none;
+  color: white;
+  gap:12px ;
+  width:85px;
+  height:30px;
+  padding:6px;
+  border-radius: 10px;
+  gap: 8px;
+  background-color: rgba(136, 95, 251, 1);
+  margin: 10px;
+ }
+ .card_4{
+  width: (1,150px);
+height:  (186px);
+padding: 32px;
+border-radius: 24px;
+gap: 16px;
+background-color: 
+rgba(42, 49, 65, 0.44);
+margin-top:10px  ;
+ }
+ .title{
+  width: 600px;
+height: 24px;
+
+  font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+ }
+ .shop_info{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:rgba(156, 163, 175, 1);
+margin-top: 10px;
+ }
+ .card_5{
+  display:grid;
+grid-template-columns: 2fr 1fr;
+  width:1,150px;
+height: 40px;
+margin-top: 10px;
+gap: 32px;
+
+ }
+ .title_2{
+  font-family: ;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+padding: 10px;
+ }
+ .btn_1{
+  width:99px;
+height:40px;
+padding:12px, 20px, 12px, 20px;
+margin: 10px;
+
+border-radius: 8px;
+gap: 8px;
+border: 1px solid rgba(156, 163, 175, 1);
+ background-color: Additional Font
+rgba(156, 163, 175, 1)
+
+ }
+ .button_1{
+  text-decoration: none;
+
+  padding: 10px;
+  
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid transparent;
+color:rgba(255, 255, 255, 1) ;
+ }
+ .image{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px;
+  padding: 10px;
+ }
+ .page_info{
+  color: rgba(255, 255, 255, 1);
+   font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 10px;
+
+ }
+ .info{
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:
+Main/Additional Font
+rgba(156, 163, 175, 1) ;
+
+ 
+ }
+ .hero_buttons{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+margin: 10px;
+ 
+
+}
+.button{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  gap:12px ;
+  width:85px;
+  height:30px;
+  padding:6px;
+  border-radius: 10px;
+  gap: 8px;
+  background-color: rgba(136, 95, 251, 1);
+
+}
+.end{
+display: flex;
+justify-content: space-between;
+  width:1,150px;
+height:64px;
+padding: 2px;
+gap: 16px;
+border: 1px solid rgba(32, 42, 59, 1);
+margin: 10px;
+}
+.card_footer{
+text-decoration: none;
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: right;
+color: rgba(255, 255, 255, 1);
+padding: 10px;
+}
+.the_end{
+ color: 
+ rgba(156, 163, 175, 1); 
+ text-decoration: none;
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: right;
+justify-content: right;
+padding: 10px;
+
+}
+  
+
+
+
+

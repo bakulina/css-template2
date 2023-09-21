@@ -105,11 +105,7 @@ body{
    position:absolute;
  left: 500px;
     top:0;
-    height: 300px;
-
-  
-
-   
+    height: 300px;  
 }
 .hero_lable{
   font-size: var(--size-1);  
@@ -225,18 +221,125 @@ grid-row: 1 / 3;
     line-height: var(--line-height);
  }
  }
- .info_title{
-   
-    left:500px ;
-    top: 0;
+ .section_feature{
+    display: grid;
+    background-color:rgba(244, 237, 228, 1);
+    padding: 10px;
 
+ }
+ .info_1{
+    text-align: right; 
+    font-family: Helvetica Neue;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.30000001192092896px;
+
+
+ }
+ .info_2{
+    text-align:right;
+    color: rgba(0, 0, 0, 1); 
+ }
+ .info_img{
+    width: 500px;
+height: 400px;
+ }
+ .card_svg{
+gap: 16px;
+display: flex;
+justify-content: end;
+}
+ .svg_1{
+    width: 300px;
+    height: 250px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.1); 
+    padding: 10px;   
+ }
+ .svg_2{
+    width: 300px;
+    height: 250px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px;    
+ }
+ .card_svg5{
+display: grid;
+ }
+ .svg_3{
+    width: 300px;
+    height:116px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.1); 
+padding: 16px, 234px, 19px, 16px;
+gap: 8px;  
+ }
+ .svg_4{
+    width: 300px;
+    height:116px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.1); 
+padding: 16px, 234px, 19px, 16px;
+gap: 8px;  
+ }
+ .page_select{
+   display: flex;
+ 
+    align-items: center;
+    justify-content:space-evenly;
+   
+    width:1,920px;
+height: 479.06px;
+padding: 72px, 450px, 48px, 450px;
+ }
+.png{
+    
+}
+  
+
+ .card_customer{
+  
+    width:433.2px;
+height: 359.06px;
+gap: 24px;
+ }
+ .text_customer{
+ text-align: right;
+font-family: Helvetica Neue;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.30000001192092896px;
+    color: rgba(0, 0, 0, 1); 
+ }
+ .dell{
+   
+    font-family: Helvetica Neue;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+padding: 10px;
+ }
+ .dell_1{
+    text-align: right;
+    width: 147px;
+height: 39.06px;
+
+ }
+
+ 
+
+
+ 
 
  
     
    
 
    
- }
+ 
 
 
     
